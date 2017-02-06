@@ -10,6 +10,10 @@
 
 @interface ViewController : UIViewController
 
+@property(nonatomic, weak) IBOutlet UITextField   *wordTextField;
+
+@property (nonatomic, weak) IBOutlet UILabel *resultLabel;
+
 
 @end
 

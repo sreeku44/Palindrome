@@ -13,6 +13,7 @@
 		DD17DE801E43AEDB0041994A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD17DE7E1E43AEDB0041994A /* Main.storyboard */; };
 		DD17DE821E43AEDB0041994A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD17DE811E43AEDB0041994A /* Assets.xcassets */; };
 		DD17DE851E43AEDB0041994A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD17DE831E43AEDB0041994A /* LaunchScreen.storyboard */; };
+		DD17DE8E1E43B6410041994A /* PalinDrome.m in Sources */ = {isa = PBXBuildFile; fileRef = DD17DE8D1E43B6410041994A /* PalinDrome.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		DD17DE811E43AEDB0041994A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD17DE841E43AEDB0041994A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DD17DE861E43AEDB0041994A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD17DE8C1E43B6410041994A /* PalinDrome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PalinDrome.h; sourceTree = "<group>"; };
+		DD17DE8D1E43B6410041994A /* PalinDrome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PalinDrome.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				DD17DE831E43AEDB0041994A /* LaunchScreen.storyboard */,
 				DD17DE861E43AEDB0041994A /* Info.plist */,
 				DD17DE751E43AEDB0041994A /* Supporting Files */,
+				DD17DE8C1E43B6410041994A /* PalinDrome.h */,
+				DD17DE8D1E43B6410041994A /* PalinDrome.m */,
 			);
 			path = Palindrome;
 			sourceTree = "<group>";
@@ -152,6 +157,7 @@
 			files = (
 				DD17DE7D1E43AEDB0041994A /* ViewController.m in Sources */,
 				DD17DE7A1E43AEDB0041994A /* AppDelegate.m in Sources */,
+				DD17DE8E1E43B6410041994A /* PalinDrome.m in Sources */,
 				DD17DE771E43AEDB0041994A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
